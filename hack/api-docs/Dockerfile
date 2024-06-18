@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FROM golang:1.18.5-alpine
+FROM golang:1.21.11-alpine
 
 RUN apk add git
 RUN git clone https://github.com/ahmetb/gen-crd-api-reference-docs.git && \
